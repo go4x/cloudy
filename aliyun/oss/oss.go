@@ -2,10 +2,11 @@ package oss
 
 import (
 	"fmt"
-	"github.com/aliyun/aliyun-oss-go-sdk/oss"
-	"github.com/gophero/goal/assert"
-	"github.com/gophero/goal/errorx"
 	"io"
+
+	"github.com/aliyun/aliyun-oss-go-sdk/oss"
+	"github.com/go4x/goal/assert"
+	"github.com/go4x/goal/errorx"
 )
 
 type Conf struct {

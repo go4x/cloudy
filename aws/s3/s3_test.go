@@ -3,9 +3,10 @@ package s3_test
 import (
 	"bytes"
 	"fmt"
-	"github.com/gophero/goal/aws/s3"
 	"os"
 	"testing"
+
+	"github.com/go4x/cloudy/aws/s3"
 )
 
 const (
